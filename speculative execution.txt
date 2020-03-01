@@ -1,0 +1,7 @@
+speculative execution
+
+If a node appears to be executing a task slower, the master node can redundantly execute 
+another instance of the same task on another node. 
+
+Then, the task which finishes first will be accepted and the other one is killed. 
+This process is called “speculative execution”.

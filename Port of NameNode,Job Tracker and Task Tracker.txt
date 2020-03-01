@@ -1,0 +1,7 @@
+Port of NameNode,Job Tracker and Task Tracker
+
+NameNode 50070
+
+Job Tracker 50030
+
+Task Tracker 50060

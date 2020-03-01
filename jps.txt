@@ -1,0 +1,5 @@
+jps
+
+The ‘jps’ command helps us to check if the Hadoop daemons are running or not. 
+
+It shows all the Hadoop daemons i.e namenode, datanode, resourcemanager, nodemanager etc. that are running on the machine.

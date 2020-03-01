@@ -1,0 +1,11 @@
+
+Rack Awareness
+
+Rack Awareness is the algorithm in which the “NameNode” decides how blocks 
+and their replicas are placed, based on rack definitions to minimize network 
+traffic between “DataNodes” within the same rack. 
+
+Let’s say we consider replication factor 3 (default), 
+the policy is that “for every block of data, two copies will exist in one rack, third copy in a different rack”. 
+This rule is known as the “Replica Placement Policy”.
+

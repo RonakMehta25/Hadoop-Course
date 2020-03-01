@@ -1,0 +1,5 @@
+inter cluster data copying
+
+HDFS provides a distributed data copying facility through the DistCP from source to destination
+
+DistCP requires both source and destination to have a compatible or same version of hadoop.

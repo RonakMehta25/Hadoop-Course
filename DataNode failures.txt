@@ -1,0 +1,7 @@
+DataNode failures
+
+NameNode periodically receives a Heartbeat (signal) from each of the DataNode in the cluster, which implies DataNode is functioning properly.
+
+A block report contains a list of all the blocks on a DataNode. If a DataNode fails to send a heartbeat message, after a specific period of time it is marked dead.
+
+The NameNode replicates the blocks of dead node to another DataNode using the replicas created earlier.

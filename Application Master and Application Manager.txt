@@ -1,0 +1,5 @@
+Application Master and Application Manager
+
+
+The terms Application Master and Application Manager are often used interchangeably. In reality Application Master is the main container requesting, launching and monitoring application specific resources, whereas Application Manager is a component inside ResourceManager. More details about Application Manager is given below.
+

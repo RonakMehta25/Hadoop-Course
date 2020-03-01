@@ -1,0 +1,8 @@
+restart NameNode
+
+You can stop the NameNode individually using. 
+/sbin /hadoop-daemon.sh stop namenode command and then start the NameNode using. 
+/sbin/hadoop-daemon.sh start namenode command.
+
+To stop and start all the daemons, use. /sbin/stop-all.sh and then use .
+/sbin/start-all.sh command which will stop all the daemons first and then start all the daemons.

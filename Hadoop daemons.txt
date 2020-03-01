@@ -1,0 +1,15 @@
+Hadoop daemons
+
+NameNode: It is the master node which is responsible for storing the metadata of all the files and directories. It has information about blocks, that make a file, and where those blocks are located in the cluster.
+
+Datanode: It is the slave node that contains the actual data.
+
+Secondary NameNode: It periodically merges the changes (edit log) with the FsImage (Filesystem Image), present in the NameNode. It stores the modified FsImage into persistent storage, which can be used in case of failure of NameNode.
+
+
+ResourceManager: It is the central authority that manages resources and schedule applications running on top of YARN.
+
+
+NodeManager: It runs on slave machines, and is responsible for launching the application’s containers (where applications execute their part), monitoring their resource usage (CPU, memory, disk, network) and reporting these to the ResourceManager.
+
+JobHistoryServer: It maintains information about MapReduce jobs after the Application Master terminates.

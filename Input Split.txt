@@ -1,0 +1,15 @@
+Input Split
+
+InputSplit in Hadoop MapReduce is the logical representation of data.
+
+Hadoop InputSplit represents the data which is processed by an individual Mapper.
+
+The split is divided into records. Hence, the mapper process each record
+
+Inputsplit does not contain the input data; it is just a reference to the data.
+
+InputFormat creates the Inputsplit and divide into records
+
+Thus the number of map tasks is equal to the number of InputSplits.
+
+map task passes the split to the createRecordReader() method on InputFormat to get RecordReader for the split and RecordReader generate record (key-value pair), which it passes to the map function.

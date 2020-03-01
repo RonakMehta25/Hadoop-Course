@@ -1,0 +1,7 @@
+NameNode is down
+
+The NameNode recovery process involves the following steps to make the Hadoop cluster up and running:
+
+Use the file system metadata replica (FsImage) to start a new NameNode. 
+Then, configure the DataNodes and clients so that they can acknowledge this new NameNode, that is started.
+Now the new NameNode will start serving the client after it has completed loading the last checkpoint FsImage (for metadata information) and received enough block reports from the DataNodes. 

@@ -1,0 +1,7 @@
+Edges nodes 
+
+Edges nodes are the interface between hadoop cluster and the external network. 
+
+Edge nodes are used for running cluster adminstration tools and client applications.
+
+Edge nodes are also referred to as gateway nodes.
